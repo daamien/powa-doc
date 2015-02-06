@@ -79,7 +79,7 @@ script, putting the following line in your `postgresql.conf` file:
 
   shared_preload_libraries='pg_stat_statements,powa,pg_stat_kcache,pg_qualstats'
 
-And restart your server, according to your distribution preferred way of doing
+And restart your server, according to your distribution's preferred way of doing
 so, for example:
 
 Init scripts:
