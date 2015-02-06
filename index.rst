@@ -94,7 +94,7 @@ Systemd:
 
 .. code-block:: bash
 
-    systemctl reload postgresql
+    systemctl restart postgresql
 
 The last step is to create a database dedicated to the PoWA repository, and
 create every extension in it. The install_all.sql file performs this task:
