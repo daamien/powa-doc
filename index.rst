@@ -18,10 +18,13 @@ This include support for:
 Additionnaly, the PoWA User Interface allows you to make the most sense of this
 information.
 
-Contents:
+Stay here for a quickstart guide.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+
+   deployment.rst
+
 
 
 Quickstart
@@ -120,8 +123,8 @@ Prerequisites
 -------------
 
 * The Python language, either 2.7 or > 3
-* The pip installer for Python. It is usually packaged as "python-pip", for
-example:
+* The pip installer for Python. It is usually packaged as "python-pip", for example:
+
 
 Debian:
 
@@ -143,7 +146,7 @@ To install the UI, just issue the following comamnd:
 
 .. code-block:: bash
 
-  sudo pip install powa
+  sudo pip install powa-web
 
 Then you'll have to configure a config file somewhere, in one of those location:
 
