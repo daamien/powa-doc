@@ -266,7 +266,7 @@ texinfo_documents = [
 
 
 rst_epilog = """
-.. |download_link| replace:: https://github.com/dalibo/powa/archives/REL_{tagname}.tar.gz
+.. |download_link| replace:: https://github.com/dalibo/powa/archive/REL_{tagname}.tar.gz
 .. |rel_tag_name| replace:: REL_{tagname}.tar.gz
 """.format(**{"tagname": "_".join(release.split('.'))})
 
