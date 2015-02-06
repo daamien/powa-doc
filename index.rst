@@ -23,8 +23,8 @@ Stay here for a quickstart guide.
 .. toctree::
    :maxdepth: 1
 
-   index.rst
    deployment.rst
+   development.rst
 
 
 
