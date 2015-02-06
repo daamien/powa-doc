@@ -12,7 +12,7 @@ implemented as a `background worker`_.
 This include support for:
 
 * `pg_stat_statements`_, providing data about queries being executed
-* `pg_qualstats`_, providing data about predicates, or where claues
+* `pg_qualstats`_, providing data about predicates, or where clauses
 * `pg_stat_kcache`_, providing data about operating-system level cache
 
 Additionnaly, the PoWA User Interface allows you to make the most sense of this
