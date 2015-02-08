@@ -16,8 +16,13 @@ Compile the doc
 * Build :
 
 ``
-        cd powa-doc
-        sphinx-build -b html . /tmp/powa-doc/
+	sphinx-build -b html . /tmp/powa-doc/ 
+``
+
+or 
+
+``
+        make html 
 ``
 
 Sphinx Theme
