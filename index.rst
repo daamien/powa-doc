@@ -9,7 +9,7 @@ The PostgreSQL Workload Analyzer is a PostgreSQL extension for **9.4** and super
 purge statistics on a PostgreSQL instance from various sources. It is
 implemented as a `background worker`_.
 
-This include support for:
+This includes support for:
 
 * `pg_stat_statements`_, providing data about queries being executed
 * `pg_qualstats`_, providing data about predicates, or where clauses
@@ -25,6 +25,7 @@ Stay here for a quickstart guide.
 
    security.rst	
    deployment.rst
+   impact_on_perf.rst
    development.rst
 
 
