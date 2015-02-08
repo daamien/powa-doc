@@ -4,6 +4,9 @@ PoWA Documentation
 
 See http://powa.readthedocs.org/
 
+[![Documentation Status](https://readthedocs.org/projects/powa/badge/?version=latest)](https://readthedocs.org/projects/powa/?badge=latest)
+                
+
 Compile the doc
 -----------------------------------
 
