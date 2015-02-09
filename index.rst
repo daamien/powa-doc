@@ -18,6 +18,13 @@ This includes support for:
 Additionnaly, the PoWA User Interface allows you to make the most sense of this
 information.
 
+Glossary
+********
+
+* **powa-core** is the PostgreSQL extension, collecting statistics.
+* **powa-web** is the graphical user interface to powa-collected metrics.
+* **powa** is the whole project.
+
 Stay here for a quickstart guide.
 
 .. toctree::
@@ -35,8 +42,8 @@ Quickstart
 ==========
 
 
-Install PoWA on the PostgreSQL instance
-***************************************
+Install PoWA-core on the PostgreSQL instance
+********************************************
 
 
 Prerequisites
@@ -118,8 +125,8 @@ create every extension in it. The install_all.sql file performs this task:
   CREATE EXTENSION
 
 
-Install the PoWA-GUI anywhere
-*****************************
+Install powa-web anywhere
+*************************
 
 You do not have to install the GUI on the same machine your instance is running.
 
@@ -146,7 +153,7 @@ RHEL / Centos:
 Installation
 ------------
 
-To install the UI, just issue the following comamnd:
+To install powa-web, just issue the following comamnd:
 
 .. code-block:: bash
 
@@ -173,7 +180,7 @@ of the above locations:
   }
   cookie_secret="SUPERSECRET_THAT_YOU_SHOULD_CHANGE"
 
-The servers key define a list of server available for connection by the PoWA-UI.
+The servers key define a list of server available for connection by PoWA-web.
 You should ensure that the pg_hba.conf file is properly configured.
 
 The cookie_secret is used as a key to crypt cookies between the client and the
