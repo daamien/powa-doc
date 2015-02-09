@@ -23,6 +23,7 @@ Stay here for a quickstart guide.
 .. toctree::
    :maxdepth: 1
 
+   index.rst
    security.rst	
    deployment.rst
    impact_on_perf.rst
