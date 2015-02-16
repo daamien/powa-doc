@@ -123,10 +123,10 @@ To install powa-web, just issue the following comamnd:
 
 Then you'll have to configure a config file somewhere, in one of those location:
 
-* /etc/powa.conf
-* ~/.config/powa.conf
-* ~/.powa.conf
-* ./powa.conf
+* /etc/powa-web.conf
+* ~/.config/powa-web.conf
+* ~/.powa-web.conf
+* ./powa-web.conf
 
 The configuration file is a simple JSON one. Copy the following content to one
 of the above locations:

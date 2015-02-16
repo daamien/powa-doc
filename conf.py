@@ -58,7 +58,7 @@ copyright = '2015, Dalibo'
 version = '2.0'
 # The full version, including alpha/beta/rc tags.
 release = '2.0.0'
-powa_web_release = '0.0.3'
+powa_web_release = '0.0.4'
 pg_qualstats_release = '0.0.2'
 pg_stat_kcache_release = 'REL1_0'
 

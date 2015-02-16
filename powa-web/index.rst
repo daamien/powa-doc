@@ -40,16 +40,14 @@ You'll need the following dependencies:
     TODO
 
 
-Then, download the latest release on `pypi <https://pypi.python.org/pypi/powa-web/>`_, and uncompress it.
-
-You should then be able to run powa-web, which will warn you about missing
-configuration files:
+Then, download the latest release on `pypi <https://pypi.python.org/pypi/powa-web/>`_,  uncompress it, and copy the sample configuration file:
 
 .. parsed-literal::
 
   wget |powa_web_download_link|
   tar -zxvf powa-web-|powa_web_release|
   cd powa-web-|powa_web_release|
+  cp ./powa-web.conf-dist ./powa-web.conf
   ./powa-web
 
 Then, jump on the next section to configure powa-web.
@@ -58,6 +56,14 @@ Then, jump on the next section to configure powa-web.
 
 Configuration
 *************
+
+The powa-web configuration is stored as a simple json document.
+Powa-web will search its config as either of these files, in this order:
+
+* /etc/powa-web.conf
+* ~/.config/powa-web.conf
+* ~/.powa-web.conf
+* ./powa-web.conf
 
 
 See also:
