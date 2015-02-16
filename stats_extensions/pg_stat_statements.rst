@@ -1,5 +1,7 @@
 .. _pg_stat_statements: http://www.postgresql.org/docs/current/static/pgstatstatements.html
 
+.. _pg_stat_statements_doc:
+
 pg_stat_statements
 ==================
 

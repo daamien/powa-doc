@@ -13,5 +13,3 @@ Currently, the list of supported stat extensions is as follows:
   pg_stat_statements.rst
   pg_qualstats.rst
   pg_stat_kcache.rst
-
-
